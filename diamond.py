@@ -17,4 +17,23 @@ for i in range(n):
 
 #01234 , 5
 
+n = 10
+for i in range(n):
+    for j in range(n - i - 1):
+        print(" ", end='')
+    for k in range(2*i + 1):
+        print("*", end='')
+    print()
+#01234 #5
+
+for i in range(n-1):
+    for j in range(i+1):
+        print(" ", end='')
+    for k in range(n*2-i*2-3):
+        print("*", end='')
+
+    print()
+
+
+
 
